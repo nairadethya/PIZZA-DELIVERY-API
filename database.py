@@ -5,6 +5,6 @@ engine = create_engine('postgresql://postgres:Ade123@#/pizza_delivery',
     echo = True 
 )
 
-Base = declarative_video()
+Base = declarative_base()
 
 Session = sessionmaker()
